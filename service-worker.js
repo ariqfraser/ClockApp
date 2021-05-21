@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ClockApp/precache-manifest.995eb8ab916d17f9fb88ea65b13d6df0.js"
+  "/ClockApp/precache-manifest.39f449244190a34b444a7a11c7863bae.js"
 );
 
 workbox.clientsClaim();

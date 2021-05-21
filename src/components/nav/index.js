@@ -12,9 +12,9 @@ const Nav = () => {
     const timer = state.timer;
 
     function switchState(x) {
-        if (x == 1) {
+        if (x === 1) {
             return {clock: 'active'}
-        } else if (x == 2) {
+        } else if (x === 2) {
             return {alarm: 'active'}
         } else {
             return {timer: 'active'}

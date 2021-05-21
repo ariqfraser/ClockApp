@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d242863de9667403058e",
+    "revision": "921399785fcb7e4a544b",
     "url": "/ClockApp/static/css/main.37611db7.chunk.css"
   },
   {
-    "revision": "d242863de9667403058e",
-    "url": "/ClockApp/static/js/main.783cf054.chunk.js"
+    "revision": "921399785fcb7e4a544b",
+    "url": "/ClockApp/static/js/main.9fe25ea8.chunk.js"
   },
   {
     "revision": "10626990bc88aeec537e",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/ClockApp/static/js/3.fd02f2fc.chunk.js"
   },
   {
-    "revision": "2357b334bfb0b958901e55c30858b914",
+    "revision": "130be2a98a1ef1ef45bc2e188b791169",
     "url": "/ClockApp/index.html"
   }
 ];

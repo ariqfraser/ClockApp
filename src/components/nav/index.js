@@ -6,10 +6,10 @@ import TimerIcon from '@material-ui/icons/Timer';
 
 const Nav = () => {
 
-    const [state, setState] = useState({clock: 'active', alarm: '', timer: ''});
-    const clock = state.clock;
-    const alarm = state.alarm;
-    const timer = state.timer;
+    const [btn, setbtn] = useState({clock: 'active', alarm: '', timer: ''});
+    const clock = btn.clock;
+    const alarm = btn.alarm;
+    const timer = btn.timer;
 
     function switchState(x) {
         if (x === 1) {
@@ -23,7 +23,7 @@ const Nav = () => {
     }
 
     function active(x) {
-        setState(() => switchState(x))
+        setbtn(() => switchState(x))
 
     }
     return (
